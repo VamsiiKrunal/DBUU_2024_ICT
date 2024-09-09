@@ -1,0 +1,17 @@
+interface paytmSuccess
+{
+	void shoutPayment();
+}
+
+
+
+class InstanceVariables implements paytmSuccess
+{
+	
+	public static void main(String[] args) 
+	{
+		InstanceVariables obj=new InstanceVariables();
+		
+		
+	}
+}

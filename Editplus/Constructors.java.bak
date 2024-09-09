@@ -1,0 +1,12 @@
+class Constructors 
+{
+	
+	Constructors(){
+		System.out.println("constructor is called wh");
+		
+	}
+	public static void main(String[] args) 
+	{
+		
+	}
+}

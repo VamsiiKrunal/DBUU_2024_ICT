@@ -1,0 +1,15 @@
+class Chai 
+{
+	public static void orderchai(int quantity){
+		System.out.println("ordered tea with "+quantity);
+	}
+		public static void orderchai(int quantity,String sugar){
+		System.out.println("ordered tea with "+quantity+"sugar quantity" +sugar);
+	}
+		
+	public static void main(String[] args) 
+	{
+	orderchai(3);
+	orderchai(4,"more");
+	}
+}

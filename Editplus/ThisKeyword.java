@@ -1,0 +1,21 @@
+class ThisKeyword 
+{
+	String name;
+	ThisKeyword(String naam){
+		name=naam;
+	}
+	
+	public  void printname(){
+		System.out.println("Hello " +th is.name );
+	}
+	public static void main(String[] args) 
+	{
+	ThisKeyword kunal=new ThisKeyword("kunal");
+	kunal.printname();
+	
+	ThisKeyword krishna=new ThisKeyword("krishna");
+	krishna.printname();
+	
+	
+	}
+}
