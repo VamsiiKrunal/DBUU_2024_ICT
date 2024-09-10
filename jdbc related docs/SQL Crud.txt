@@ -1,0 +1,51 @@
+Insert Query:
+==============
+
+INSERT INTO table_name (column1, column2, column3, ...)
+VALUES (value1, value2, value3, ...);
+
+Example:
+========
+
+INSERT INTO demo (id, name)
+VALUES (1, 'John');
+--------------------------------------------------
+Update:
+=======
+
+
+UPDATE table_name
+SET column1 = value1, column2 = value2, ...
+WHERE condition;
+
+example:
+
+UPDATE demo
+SET name = 'Alice'
+WHERE id = 1;
+
+------------------------------------------------
+Delete Query:
+============
+
+DELETE FROM table_name
+WHERE condition;
+
+example:
+
+DELETE FROM demo
+WHERE id = 1;
+
+-------------------------------------------------
+Select Query:
+=============
+
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition;
+
+
+example:
+
+SELECT * FROM demo;
+SELECT name FROM demo where id=1;
